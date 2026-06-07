@@ -1,0 +1,47 @@
+{
+  "model_type": "ranker",
+  "emb_size": 128,
+  "num_layers": 4,
+  "num_heads": 4,
+  "key_size": 32,
+  "history_seq_len": 127,
+  "candidate_seq_len": 64,
+  "num_actions": 19,
+  "product_surface_vocab_size": 16,
+  "post_age_granularity_mins": 60,
+  "user_vocab_size": 1000000,
+  "item_vocab_size": 1000000,
+  "author_vocab_size": 1000000,
+  "num_user_hashes": 2,
+  "num_item_hashes": 2,
+  "num_author_hashes": 2,
+  "hash_params": {
+    "user_hash_scales": [
+      196742702,
+      1852108266
+    ],
+    "user_biases": [
+      1935840681,
+      167407236
+    ],
+    "user_modulus": 2859568897,
+    "item_hash_scales": [
+      2161410491,
+      1754358832
+    ],
+    "item_biases": [
+      1935840681,
+      167407236
+    ],
+    "item_modulus": 2361375383,
+    "author_hash_scales": [
+      371965780,
+      328930218
+    ],
+    "author_biases": [
+      139686260,
+      37755056
+    ],
+    "author_modulus": 631860353
+  }
+}
